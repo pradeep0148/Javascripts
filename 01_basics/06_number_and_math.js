@@ -24,6 +24,7 @@ const hundreds= 10000000
 // console.log(Math.floor(4.9));
 // console.log(Math.sqrt(25));
 // console.log(Math.PI+(2));
+
 // console.log(Math.min(2,34,5,7));
   
 console.log(Math.random()*10);
