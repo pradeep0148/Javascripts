@@ -28,3 +28,24 @@ let myObj ={
 
  }
 console.log(typeof bigNumber);
+
+
+//+++++++++++++++++++++++++++++++++++++ Memory ++++++++++++++++++
+
+// stack(Priitive) , Heap (Non-Primitive)
+let myYoutubename = "rudra.com"
+let anOthername = myYoutubename
+ anOthername= "rudra"
+console.log(anOthername);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi:"user@ybl"
+
+}
+let userTwo =userOne
+userTwo.email="hitesh@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
